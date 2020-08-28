@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Spartan:wght@700&display=swap');
+
+body {
+	margin: 0px;
+	color: #f0e6c5;
+	text-align: center;
+	font-family: 'Spartan', sans-serif;
+	background-color: #373636;
+}
+
+header {
+	width: 100%;
+	background-color: #0085bd;
+	text-align: center;
+	position: relative;
+}
+
+nav {
+	width: 100%;
+	background-color: #002b56;
+	position: relative;
+	border-bottom: 3px solid #da4167;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+a {
+	transition: all 200ms ease;
+}
+
+nav a {
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 3vh;
+}
+
+div {
+	position: relative;
+}
+
+.parallax_text {
+	position: relative;
+	top: 50%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10%;
+}
+
+p {
+	position: relative;
+	margin: 0%;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-family: 'Montserrat', sans-serif;
+}
+
+p::selection {
+	color: #da4167;
+	background: #002b56;
+}
+
+#logo {
+	width:auto;
+	height: 10vh;
+	padding: 10px;
+	transition: all 200ms ease;
+}
+
+#logo:hover {
+	filter: drop-shadow(4px 4px 1px #da4167);
+}
+
+#nav_text {
+	font-size: 3vh;
+	display: inline;
+	color: #da4167;
+}
+
+@media screen and (max-width: 800px) {
+	p {
+    	font-size: 3vw;
+	}
+
+	#page_content {
+		flex-direction: column;
+	}
+}
+
+h1 {
+	font-size: 4vh;
+	transition: all 200ms ease;
+}
+
+a:hover {
+	text-shadow: 4px 4px 2px #da4167;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #da4167;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b43655;
+}
+
+#button_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button{
+	height: 7vh;
+	flex-basis: 50%;
+	vertical-align: middle;
+	color:#ffffff;
+	background: #0085bd;
+	font-size: 3vh;
+	font-family: 'Spartan', sans-serif;
+	border: none;
+	transition: all 200ms ease;
+}
+
+.button {
+	height: 7vh;
+	flex-basis: 50%;
+	vertical-align: middle;
+	color:#ffffff;
+	background: #0085bd;
+	font-size: 3vh;
+	font-family: 'Spartan', sans-serif;
+	border: none;
+	appearance: button;
+	line-height: 7vh;
+	text-decoration: none;
+}
+
+
+button:hover {
+	text-shadow: 4px 4px 2px #da4167;
+	cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,73 @@
+.value {
+	transition: all 200ms ease;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+.value:hover { 
+	color: #ffffff;
+}
+
+#unity {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/other_images/190731BreakersBB_05.JPG");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+
+#persistence {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/other_images/Finn_Delany.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#integrity {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/other_images/Diamond_Seats_5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#excellence {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/other_images/Corey_Dribble.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.value_text {
+	flex-basis: 100%;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+    align-items: center;
+	transition: all 200ms ease;
+	text-decoration: underline;
+	top: 15px;
+}
+
+h1 {
+	font-size: 6vh;
+}
+
+.hover_text {
+	transition: all 200ms ease;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	padding: 0px, 20px;
+	flex-basis: 100%;
+}
+
+.hover_text > p {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#button_container #unity_button {
+	background-color: #002b56;
+}

@@ -1,0 +1,119 @@
+#page_content {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/images/other_images/0L2A9726.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	/* for max-width div
+	margin: auto;
+	max-width: 1920px;
+	*/
+}
+
+#player_bar {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/images/other_images/IMGP9212.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 15vh;
+	transition: height 200ms ease;
+}
+
+#player_bar:hover {
+	height: 50vh;
+}
+
+#player_bar_heading {
+	height: 16vh;
+	display: flex;
+}
+
+#heading {
+	flex-basis: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	line-height: 15vh;
+}
+
+#player_bar:hover #player_bar_heading {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#player_links {
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+}
+
+.player_link {
+	flex: 1 0 40%;
+}
+
+.player_link a {
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 3vh;
+	padding: 0px;
+	margin: 0px;
+}
+
+.player_card {
+	margin: 6px;
+	background: #002b56b0;
+	display: flex;
+	flex-basis: 40%;
+	border: 3px solid #ffffff;
+	transition: all 200ms ease;
+}
+
+.player_card:hover {
+	background: #002b56;
+	border: 3px solid #da4167;
+}
+
+.player_card:hover > .player_image {
+	background: #ffffff;
+	border-left: 3px solid #da4167;
+}
+
+.player_card:hover > .player_text {
+	color: #ffffff;
+}
+
+.player_image {
+	width: 35%;
+	max-height: 35vh;
+	background: #f0e6c5;
+	vertical-align: middle;
+	transition: all 200ms ease;
+	border-left: 3px solid #ffffff;
+	object-fit: contain;
+}
+.player_image img {
+	max-height: 35vh;
+	max-width:100%;
+}
+
+.player_text {
+	overflow: hidden;
+	max-height: 35vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	transition: all 200ms ease;
+	flex: 1;
+}

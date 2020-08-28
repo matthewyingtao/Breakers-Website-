@@ -1,0 +1,50 @@
+#banner1 {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/images/other_images/Spark_Arena.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	position: relative;
+}
+
+#join_banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient( rgba(0, 133, 189, 0.3), rgba(0, 43, 86, 1) ), url("/images/other_images/Finn_Delany.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#join_banner a {
+	padding-top: 20px;
+	text-decoration: underline;
+	text-decoration-color: #da4167;
+	color:#ffffff;
+	font-size: 10vh;
+}
+
+#banner2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+ 	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: column;
+	flex-shrink: 1;
+}
+
+.sponsors {
+	padding: 1.5%;
+	width: 10%;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+	.sponsors {
+		width: 25%;
+	}
+}
